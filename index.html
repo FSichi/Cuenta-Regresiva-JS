@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Darkmode con Javascript</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div class="contenedor">
+		<nav>
+			<a class="logotipo" href="#">Design by FacuSichi</a>
+			<div class="enlaces">
+				<button class="switch" id="switch">
+					<span><i class="fas fa-sun"></i></span>
+					<span><i class="fas fa-moon"></i></span>
+				</button>
+			</div>
+		</nav>
+
+		<div class="portada" id="portada">
+			<div class="header" id="header">
+				<h1 class="logotipo">Bienvenido</h1>
+				<p class="mensaje"><span class="typed"></span></p>
+			</div>
+	
+			<div id="cuenta"></div>  <!-- ESTE ES EL CONTADOR -->
+	
+			<div class="redes-sociales">
+				   <a href="mailto:facusichi@gmail.com?Subject=Contacto%20Pagina%20Web" target="_blank" class="btn-red-social"><i class="fas fa-envelope" ></i></a> 
+				   <a href="https://www.linkedin.com/in/facundo-sichi-aa20bb194/" target="_blank"  class="btn-red-social">  <i class="fab fa-linkedin-in"></i></a> 
+				   <a href="https://github.com/FSichi" target="_blank"  class="btn-red-social"><i class="fab fa-github" ></i></a> 
+				   <a href="https://www.instagram.com/facusichi/" target="_blank" class="btn-red-social"> <i class="fab fa-instagram" ></i></a>
+				   <a href="https://fsichi.github.io/PortFolio-Facundo-Sichi/" target="_blank" class="btn-red-social"><i class="fas fa-globe" ></i></a>
+			</div>
+		</div>
+	
+<!-- 		<main class="contenedor">
+			<p>GRACIAS POR LA ESPERA. <br> Contador Regresivo desarrollado con HTML, CSS y JavaScript. Libreria SimpleCountDown</p>
+		</main> -->
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/simplyCountdown.min.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
